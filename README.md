@@ -12,4 +12,4 @@ There is part of the applciation which are not working and that is mainly beacau
 
 Repository link: https://github.com/Mahmoudcali02/day-scheduler
 
-Deployed Link:
+Deployed Link: https://mahmoudcali02.github.io/day-scheduler/index.html
