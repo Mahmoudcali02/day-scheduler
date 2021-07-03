@@ -1,0 +1,86 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #daf7a6;
+}
+
+header {
+  margin: 0;
+  padding: 2em 5em 4em;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: skewY(-4deg);
+  background: #098282;
+  color: white;
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+.title {
+  font-size: 48px;
+  font-family: "Noto Serif", serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.time {
+  width: 10%;
+  text-align: right;
+  height: 2.5rem;
+  padding: 1rem;
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+
+.time-content {
+  width: 80%;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background: rgba(9, 130, 130);
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  font-family: "Sanchez", serif;
+  font-size: 14px;
+  color: solid black;
+}
+
+.save {
+  width: 10%;
+  text-align: center;
+  padding-top: 1.5rem;
+  border-radius: 4px;
+  background: #daf7a6;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.save:hover {
+  background-color: #098282;
+}
+
+.planner-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3rem;
+}
+
+.time-slot {
+  display: flex;
+  background-color: #daf7a6;
+}
