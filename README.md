@@ -6,7 +6,7 @@ There is part of the applciation which are not working and that is mainly beacau
 
 # Screenshots of application
 
-![Application page screenshot](assets\images\screenshot.png)
+![Application page screenshot](assets/images/screenshot.png)
 
 # Links
 
